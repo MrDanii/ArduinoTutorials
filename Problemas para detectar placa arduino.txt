@@ -1,0 +1,11 @@
+Problema para mostrar el puerto o permiso denegado en el puerto USB 
+>>>>>>>>>>>>>>>
+
+* LINUX (Ubuntu 14.0 y 16.0)
+    1.- utilizamos el comando: "tail -f /var/log/syslog" (Con el motivo de ver los mensajes del sistema)
+    2.- Conectamos el arduino al puerto USB
+    3.- Nos fijamos el nombre del puerto (en mi caso "ttyUSB0")
+    4.- Una vez con el nombre, ahora le damos permisos a ese puerto con el comando "chmod 777 /dev/ttyUSB0"
+    5.- Con lo anterior ya nos debe mostrar el puerto y tenemos permisos para subir cualquier programa a la placa
+
+Nota: Ubuntu ya tiene los drivers necesarios para detectar las placas de arduino
