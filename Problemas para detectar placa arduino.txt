@@ -9,3 +9,4 @@ Problema para mostrar el puerto o permiso denegado en el puerto USB
     5.- Con lo anterior ya nos debe mostrar el puerto y tenemos permisos para subir cualquier programa a la placa
 
 Nota: Ubuntu ya tiene los drivers necesarios para detectar las placas de arduino
+Nota2: prueba de cambio
